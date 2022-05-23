@@ -1,0 +1,28 @@
+.social_icons {
+  padding-top: 6rem;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: row-nowrap;
+}
+.social_icons :not(:last-child) {
+  margin-right: 2.8rem;
+}
+.social_content {
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+  font-size: 1.6rem;
+  color: white;
+  position: relative;
+  top: 1.3rem;
+}
+.social_content_ {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  color: white;
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
+}

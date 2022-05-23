@@ -1,0 +1,87 @@
+.section3Div {
+  display: flex;
+  max-width: 92%;
+  margin: 0 auto;
+  justify-content: center;
+  height: fit-content;
+  background-color: rgb(30, 0, 64);
+  padding-bottom: 20rem;
+}
+.section3LeftDiv {
+  margin-left: 20rem;
+}
+.section3LeftInput {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.section3LeftInput input {
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 2px solid white;
+  width: 20%;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.section3LeftInput input::placeholder {
+  font-weight: 600;
+  position: relative;
+  color: white;
+}
+.section3LeftInput div {
+  color: white;
+  font-weight: 550;
+  font-size: 1.5rem;
+  position: relative;
+  top: 1.5rem;
+}
+.section3LeftParagraph {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 5rem;
+}
+.section3LeftImg {
+  margin-top: 12.5rem;
+}
+.section3RightDiv {
+  background-color: rgb(43, 19, 75);
+  margin-left: 11.8rem;
+  padding-left: 8rem;
+  padding-top: 4rem;
+  padding-right: 16.6rem;
+}
+.section3RightInput {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.section3RightInput input {
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 2px solid white;
+  width: 16%;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.section3RightInput input::placeholder {
+  font-weight: 600;
+  position: relative;
+  color: white;
+}
+.section3RightInput div {
+  color: white;
+  font-weight: 550;
+  font-size: 1.5rem;
+  position: relative;
+  top: 1.5rem;
+}
+.section3RightParagraph1 {
+  margin-top: 4rem;
+  color: white;
+  font-size: 1.6rem;
+}
+.section3RightParagraph2 {
+  margin-top: 7rem;
+  color: white;
+  font-size: 1.6rem;
+}

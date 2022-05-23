@@ -1,0 +1,13 @@
+.footer_div {
+  /* margin-top: 10rem; */
+  width: 100rem;
+  margin: 0 auto;
+  background: red;
+  height: 100rem;
+  border-radius: 50%;
+}
+.footer_inner_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,30 @@
+.input_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.input_innerDiv input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgb(71, 58, 93);
+}
+
+.input_innerDiv input:focus {
+  outline: transparent;
+}
+
+.input_innerDiv {
+  margin-left: 2rem;
+  width: 13%;
+}
+
+.input_innerDiv ::placeholder {
+  position: relative;
+  left: 1rem;
+  top: 0.5rem;
+  font-size: 0.95rem;
+}

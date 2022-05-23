@@ -1,0 +1,34 @@
+.date_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.3rem;
+}
+
+.date_inner_container {
+  background-color: white;
+  margin-left: 1.5rem;
+  min-width: 8.4rem;
+  max-height: 10rem;
+  padding: 2.8rem 2rem;
+  border-radius: 8px;
+}
+
+.date_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  font-size: 3.4rem;
+  font-weight: 600;
+}
+
+.date_let {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  position: relative;
+  top: 0.6rem;
+}

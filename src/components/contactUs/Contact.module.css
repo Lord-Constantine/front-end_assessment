@@ -1,0 +1,104 @@
+.contactCenterDiv {
+  max-width: 92%;
+  margin: 0 auto;
+}
+.contactHalfDiv {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  background-color: rgb(30, 0, 64);
+}
+.contactArrowDiv {
+  width: 8rem;
+  height: 8rem;
+  z-index: 999;
+  display: flex;
+  position: relative;
+  top: 3rem;
+  right: 4rem;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 100%;
+}
+.contactArrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: large;
+  color: rgb(32, 0, 67);
+}
+.positionContactHeading {
+  margin-top: 8rem;
+}
+.contactHeading {
+  font-size: 3rem;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+.contactInputDiv {
+  display: flex;
+  gap: 1rem;
+  color: white;
+  padding-left: 6rem;
+  font-size: 1.5rem;
+  flex-direction: column;
+}
+.contactMainInputDiv {
+  display: flex;
+  margin-top: 5rem;
+  gap: 3rem;
+  flex-direction: column;
+}
+.contactMainInputDiv input {
+  padding: 3rem;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+}
+.contactTextArea {
+  padding-bottom: 12rem !important;
+}
+
+.contactButtonDiv {
+  padding-left: 6rem;
+}
+.contactButton {
+  padding: 2rem 4rem;
+  border-radius: 5rem;
+  border: none;
+  color: white;
+  background-color: rgb(39, 26, 193);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 10rem;
+}
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.container {
+}
+
+.container.open {
+  transform: translate(0%);
+  transition: all 0.1s;
+}
+
+.container.close {
+  transform: translate(100%);
+  transition: all 0.1s;
+}
+
+.generalContainer {
+}
+
+.generalContainer.gCopen {
+}
+
+.generalContainer.gCclose {
+}

@@ -1,0 +1,16 @@
+.section2Div {
+  max-width: 92%;
+  margin: 0 auto;
+  background-color: rgb(30, 0, 64);
+  display: flex;
+  justify-content: center;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+}
+.section2Div p {
+  font-size: 55px;
+  color: white;
+}
+.section2Div span {
+  font-weight: 700;
+}

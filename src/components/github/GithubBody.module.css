@@ -1,0 +1,40 @@
+.githubBodyContainer {
+  display: flex;
+  height: 100%;
+  padding-left: 4rem;
+  margin-top: 3rem;
+}
+
+.githubBodyLeft {
+  width: 12rem;
+  height: 12rem;
+}
+
+.githubBodyLeft img {
+  object-fit: cover;
+  width: 12rem;
+  height: 12rem;
+}
+.githubBodyRight {
+  margin-left: 4rem;
+}
+
+.resName {
+  font-size: 2.5rem;
+}
+.redDes {
+  font-size: 1.4rem;
+  padding-top: 1.4rem;
+  padding-bottom: rem;
+}
+.endDiv {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+}
+.endDiv_ {
+  border: 1px solid black;
+  padding: 1.3rem 1rem;
+}
