@@ -8,11 +8,13 @@ const ContactUsPage = ({ open, setOpenModal, o }) => {
   return (
     <div
       style={{
-        position: "absolute",
+        position: "fixed",
         zIndex: "1000",
         width: "100vw",
         backdropFilter: "blur(10px)",
         display: `${open ? "block" : "none"}`,
+        height: "100vh",
+        overflow: "auto",
       }}
       className={`${classes.generalContainer} ${
         open ? classes.gCopen : classes.gCclose
